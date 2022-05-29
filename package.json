@@ -1,0 +1,44 @@
+{
+  "name": "@jungzl/stylelint-config",
+  "version": "0.0.0",
+  "packageManager": "pnpm@7.1.6",
+  "description": "Jungzl's stylelint config",
+  "author": "Jungzl",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "stylelint"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --fix",
+    "release": "bumpp package.json --commit --push --tag && pnpm publish --access public"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.0.0"
+  },
+  "dependencies": {
+    "postcss-html": "^1.4.1",
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-recommended": "^7.0.0",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-standard-scss": "^4.0.0",
+    "stylelint-config-standard-vue": "^1.0.0",
+    "stylelint-css-modules": "^1.2.2",
+    "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
+    "stylelint-no-unsupported-browser-features": "^5.0.3",
+    "stylelint-scss": "^4.2.0"
+  },
+  "devDependencies": {
+    "@jungzl/eslint-config-ts": "^0.0.1",
+    "bumpp": "^7.1.1",
+    "eslint": "^8.16.0",
+    "typescript": "^4.7.2"
+  }
+}
