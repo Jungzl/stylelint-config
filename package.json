@@ -1,7 +1,7 @@
 {
   "name": "@jungzl/stylelint-config",
   "version": "0.0.2",
-  "packageManager": "pnpm@7.10.0",
+  "packageManager": "pnpm@7.12.0",
   "description": "Jungzl's stylelint config",
   "author": "Jungzl",
   "license": "MIT",
