@@ -14,7 +14,7 @@ specifiers:
   stylelint-config-standard-vue: ^1.0.0
   stylelint-css-modules: ^1.2.2
   stylelint-declaration-block-no-ignored-properties: ^2.5.0
-  stylelint-no-unsupported-browser-features: ^5.0.4
+  stylelint-no-unsupported-browser-features: ^6.0.0
   stylelint-scss: ^4.3.0
   typescript: ^4.8.4
 
@@ -29,7 +29,7 @@ dependencies:
   stylelint-config-standard-vue: 1.0.0_xhez2jbrlm5gsznvnryddq5rcu
   stylelint-css-modules: 1.2.2_stylelint@14.13.0
   stylelint-declaration-block-no-ignored-properties: 2.5.0_stylelint@14.13.0
-  stylelint-no-unsupported-browser-features: 5.0.4_stylelint@14.13.0
+  stylelint-no-unsupported-browser-features: 6.0.0_stylelint@14.13.0
   stylelint-scss: 4.3.0_stylelint@14.13.0
 
 devDependencies:
@@ -856,7 +856,7 @@ packages:
       domhandler: 5.0.3
 
   /duplexer2/0.0.2:
-    resolution: {integrity: sha1-xhTc9n4vsUmVqRcR5aYX6KYKMds=}
+    resolution: {integrity: sha512-+AWBwjGadtksxjOQSFDhPNQbed7icNXApT4+2BNpsXzcCBiInq2H9XW0O8sfHFaPmnQRs7cg/P0fAr2IWQSW0g==}
     dependencies:
       readable-stream: 1.1.14
     dev: false
@@ -1821,7 +1821,7 @@ packages:
     dev: false
 
   /isarray/1.0.0:
-    resolution: {integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=}
+    resolution: {integrity: sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==}
     dev: false
 
   /isexe/2.0.0:
@@ -2322,12 +2322,12 @@ packages:
       util-deprecate: 1.0.2
     dev: false
 
-  /postcss-sorting/7.0.1_postcss@8.4.14:
+  /postcss-sorting/7.0.1_postcss@8.4.16:
     resolution: {integrity: sha512-iLBFYz6VRYyLJEJsBJ8M3TCqNcckVzz4wFounSc5Oez35ogE/X+aoC5fFu103Ot7NyvjU3/xqIXn93Gp3kJk4g==}
     peerDependencies:
       postcss: ^8.3.9
     dependencies:
-      postcss: 8.4.14
+      postcss: 8.4.16
     dev: false
 
   /postcss-value-parser/4.2.0:
@@ -2832,11 +2832,11 @@ packages:
       stylelint: 14.13.0
     dev: false
 
-  /stylelint-no-unsupported-browser-features/5.0.4_stylelint@14.13.0:
-    resolution: {integrity: sha512-05DeIsWv262DXTSWhbQURDOxno9Tsu81sNnOpG1gD39WT+NNsEjhR2BQvwvNpZ/J/lS8vHxjhHULU2OGKSswvA==}
-    engines: {node: '>=12'}
+  /stylelint-no-unsupported-browser-features/6.0.0_stylelint@14.13.0:
+    resolution: {integrity: sha512-Jziz54qTcDLCSHnqK+xRiwV2kraBopENwqpCvXTDCHR+ng03fdUFfCLRbyMSP6BWK0diLC8pvvbncHUJpK+zTA==}
+    engines: {node: ^14 || ^16}
     peerDependencies:
-      stylelint: '>=13.0.0'
+      stylelint: ^14.0.0
     dependencies:
       doiuse: 4.4.1
       lodash: 4.17.21
@@ -2849,8 +2849,8 @@ packages:
     peerDependencies:
       stylelint: ^14.0.0
     dependencies:
-      postcss: 8.4.14
-      postcss-sorting: 7.0.1_postcss@8.4.14
+      postcss: 8.4.16
+      postcss-sorting: 7.0.1_postcss@8.4.16
       stylelint: 14.13.0
     dev: false
 
