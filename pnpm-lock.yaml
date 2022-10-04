@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@jungzl/eslint-config-ts': ^0.0.3
+  '@jungzl/eslint-config-ts': ^0.0.4
   bumpp: ^8.0.0
   eslint: ^8.24.0
   postcss-html: ^1.5.0
@@ -33,7 +33,7 @@ dependencies:
   stylelint-scss: 4.3.0_stylelint@14.13.0
 
 devDependencies:
-  '@jungzl/eslint-config-ts': 0.0.3_ypn2ylkkyfa5i233caldtndbqa
+  '@jungzl/eslint-config-ts': 0.0.4_ypn2ylkkyfa5i233caldtndbqa
   bumpp: 8.2.1
   eslint: 8.24.0
   typescript: 4.8.4
@@ -144,8 +144,8 @@ packages:
       type-detect: 4.0.8
     dev: true
 
-  /@jungzl/eslint-config-basic/0.0.3_gofx6msuqd4luqedfouzks2s4u:
-    resolution: {integrity: sha512-VDZs5wajwzMNT/25JpJoZ4pk4ZFnHRJP3F908/ZWzafCeH0l7hFDKETToxc2H0Q8cN07sP8TUWoUMY8uTLUtHQ==}
+  /@jungzl/eslint-config-basic/0.0.5_gofx6msuqd4luqedfouzks2s4u:
+    resolution: {integrity: sha512-XgiImOsPx24rgtNI0qczXulG6yrKg5IHNdn1WWRxi1j71UnLhW7Y5HuCnlb+NCESC7GuVZSDu6RxyjyDPi7XXA==}
     peerDependencies:
       eslint: ^8.0.0
     dependencies:
@@ -164,7 +164,7 @@ packages:
       eslint-plugin-markdown: 3.0.0_eslint@8.24.0
       eslint-plugin-n: 15.3.0_eslint@8.24.0
       eslint-plugin-promise: 6.0.1_eslint@8.24.0
-      eslint-plugin-unicorn: 43.0.2_eslint@8.24.0
+      eslint-plugin-unicorn: 44.0.0_eslint@8.24.0
       eslint-plugin-yml: 1.2.0_eslint@8.24.0
       jsonc-eslint-parser: 2.1.0
       yaml-eslint-parser: 1.1.0
@@ -175,13 +175,13 @@ packages:
       - supports-color
     dev: true
 
-  /@jungzl/eslint-config-ts/0.0.3_ypn2ylkkyfa5i233caldtndbqa:
-    resolution: {integrity: sha512-C4VGYXaGo+TZTohAXx8u0CcagaNNijKYg1KZQe478NOmYJ3pfGHYNO1WPWcavQbh6/AQ9pqXvXZC8SdJVyt1Lg==}
+  /@jungzl/eslint-config-ts/0.0.4_ypn2ylkkyfa5i233caldtndbqa:
+    resolution: {integrity: sha512-tGV9gSrPdJL/Y7+S5x6V1yGS+6c5GCOcDkWtW3iYeR1jlIduvI/+3CojRP0zZNB533HM0nCdYEELfr6GDIvykA==}
     peerDependencies:
       eslint: ^8.0.0
       typescript: ^4.7.2
     dependencies:
-      '@jungzl/eslint-config-basic': 0.0.3_gofx6msuqd4luqedfouzks2s4u
+      '@jungzl/eslint-config-basic': 0.0.5_gofx6msuqd4luqedfouzks2s4u
       '@typescript-eslint/eslint-plugin': 5.38.1_c7qepppml3d4ahu5cnfwqe6ltq
       '@typescript-eslint/parser': 5.38.1_ypn2ylkkyfa5i233caldtndbqa
       eslint: 8.24.0
@@ -1210,11 +1210,11 @@ packages:
       eslint: 8.24.0
     dev: true
 
-  /eslint-plugin-unicorn/43.0.2_eslint@8.24.0:
-    resolution: {integrity: sha512-DtqZ5mf/GMlfWoz1abIjq5jZfaFuHzGBZYIeuJfEoKKGWRHr2JiJR+ea+BF7Wx2N1PPRoT/2fwgiK1NnmNE3Hg==}
+  /eslint-plugin-unicorn/44.0.0_eslint@8.24.0:
+    resolution: {integrity: sha512-GbkxkdNzY7wNEfZnraAP+oA+aqqzSrNZmO37kjW1DyqnSK/ah08ySDdIecObpx46twv+zcQvH8i0CHP98Wo64w==}
     engines: {node: '>=14.18'}
     peerDependencies:
-      eslint: '>=8.18.0'
+      eslint: '>=8.23.1'
     dependencies:
       '@babel/helper-validator-identifier': 7.19.1
       ci-info: 3.4.0
