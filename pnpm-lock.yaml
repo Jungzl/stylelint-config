@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@jungzl/eslint-config-ts': ^0.0.4
+  '@jungzl/eslint-config-ts': ^0.0.5
   bumpp: ^8.0.0
   eslint: ^8.24.0
   postcss-html: ^1.5.0
@@ -33,7 +33,7 @@ dependencies:
   stylelint-scss: 4.3.0_stylelint@14.13.0
 
 devDependencies:
-  '@jungzl/eslint-config-ts': 0.0.4_ypn2ylkkyfa5i233caldtndbqa
+  '@jungzl/eslint-config-ts': 0.0.5_ypn2ylkkyfa5i233caldtndbqa
   bumpp: 8.2.1
   eslint: 8.24.0
   typescript: 4.8.4
@@ -144,8 +144,8 @@ packages:
       type-detect: 4.0.8
     dev: true
 
-  /@jungzl/eslint-config-basic/0.0.5_gofx6msuqd4luqedfouzks2s4u:
-    resolution: {integrity: sha512-XgiImOsPx24rgtNI0qczXulG6yrKg5IHNdn1WWRxi1j71UnLhW7Y5HuCnlb+NCESC7GuVZSDu6RxyjyDPi7XXA==}
+  /@jungzl/eslint-config-basic/0.0.6_gofx6msuqd4luqedfouzks2s4u:
+    resolution: {integrity: sha512-c9wEcuaF8YQWn/1GRR0iNRH06a9W44J+1wUL/9NkkOxdE3zU6P9pM1eggwkbfFG6x45FsWIs7zEpmICJKOAC7Q==}
     peerDependencies:
       eslint: ^8.0.0
     dependencies:
@@ -175,13 +175,13 @@ packages:
       - supports-color
     dev: true
 
-  /@jungzl/eslint-config-ts/0.0.4_ypn2ylkkyfa5i233caldtndbqa:
-    resolution: {integrity: sha512-tGV9gSrPdJL/Y7+S5x6V1yGS+6c5GCOcDkWtW3iYeR1jlIduvI/+3CojRP0zZNB533HM0nCdYEELfr6GDIvykA==}
+  /@jungzl/eslint-config-ts/0.0.5_ypn2ylkkyfa5i233caldtndbqa:
+    resolution: {integrity: sha512-GMeHPjbYz29/CR5sxvot64WMsGsTMYT9O7dvRJ2aqx3T+EOIrHpATgO2Egez3oqcgRbmyUSQbzoqv8QCXDoPKw==}
     peerDependencies:
       eslint: ^8.0.0
       typescript: ^4.7.2
     dependencies:
-      '@jungzl/eslint-config-basic': 0.0.5_gofx6msuqd4luqedfouzks2s4u
+      '@jungzl/eslint-config-basic': 0.0.6_gofx6msuqd4luqedfouzks2s4u
       '@typescript-eslint/eslint-plugin': 5.38.1_c7qepppml3d4ahu5cnfwqe6ltq
       '@typescript-eslint/parser': 5.38.1_ypn2ylkkyfa5i233caldtndbqa
       eslint: 8.24.0
