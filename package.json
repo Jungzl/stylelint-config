@@ -1,7 +1,6 @@
 {
   "name": "@jungzl/stylelint-config",
   "version": "0.0.3",
-  "packageManager": "pnpm@7.13.4",
   "description": "Jungzl's stylelint config",
   "author": "Jungzl",
   "license": "MIT",
@@ -32,14 +31,14 @@
     "stylelint-config-standard-scss": "^6.0.0",
     "stylelint-config-standard-vue": "^1.0.0",
     "stylelint-css-modules": "^1.2.2",
-    "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
-    "stylelint-no-unsupported-browser-features": "^6.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.6.0",
+    "stylelint-no-unsupported-browser-features": "^6.0.1",
     "stylelint-scss": "^4.3.0"
   },
   "devDependencies": {
     "@jungzl/eslint-config-ts": "^0.0.5",
     "bumpp": "^8.0.0",
-    "eslint": "^8.24.0",
+    "eslint": "^8.26.0",
     "typescript": "^4.8.4"
   }
 }
