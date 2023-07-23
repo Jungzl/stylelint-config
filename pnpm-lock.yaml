@@ -15,8 +15,8 @@ dependencies:
     specifier: ^4.0.0
     version: 4.0.0(stylelint@15.0.0)
   stylelint-config-recommended:
-    specifier: ^12.0.0
-    version: 12.0.0(stylelint@15.0.0)
+    specifier: ^13.0.0
+    version: 13.0.0(stylelint@15.0.0)
   stylelint-config-recommended-vue:
     specifier: ^1.4.0
     version: 1.4.0(postcss-html@1.5.0)(stylelint@15.0.0)
@@ -628,7 +628,7 @@ packages:
   /builtins@5.0.1:
     resolution: {integrity: sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==}
     dependencies:
-      semver: 7.5.3
+      semver: 7.5.4
     dev: true
 
   /bumpp@9.0.0:
@@ -1216,7 +1216,7 @@ packages:
       is-glob: 4.0.3
       minimatch: 3.1.2
       resolve: 1.22.3
-      semver: 7.5.3
+      semver: 7.5.4
     transitivePeerDependencies:
       - '@typescript-eslint/parser'
       - eslint-import-resolver-typescript
@@ -2909,13 +2909,22 @@ packages:
       semver: 7.5.3
       stylelint: 15.0.0
       stylelint-config-html: 1.1.0(postcss-html@1.5.0)(stylelint@15.0.0)
-      stylelint-config-recommended: 12.0.0(stylelint@15.0.0)
+      stylelint-config-recommended: 13.0.0(stylelint@15.0.0)
     dev: false
 
   /stylelint-config-recommended@12.0.0(stylelint@15.0.0):
     resolution: {integrity: sha512-x6x8QNARrGO2sG6iURkzqL+Dp+4bJorPMMRNPScdvaUK8PsynriOcMW7AFDKqkWAS5wbue/u8fUT/4ynzcmqdQ==}
     peerDependencies:
       stylelint: ^15.5.0
+    dependencies:
+      stylelint: 15.0.0
+    dev: false
+
+  /stylelint-config-recommended@13.0.0(stylelint@15.0.0):
+    resolution: {integrity: sha512-EH+yRj6h3GAe/fRiyaoO2F9l9Tgg50AOFhaszyfov9v6ayXJ1IkSHwTxd7lB48FmOeSGDPLjatjO11fJpmarkQ==}
+    engines: {node: ^14.13.1 || >=16.0.0}
+    peerDependencies:
+      stylelint: ^15.10.0
     dependencies:
       stylelint: 15.0.0
     dev: false
