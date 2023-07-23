@@ -36,7 +36,7 @@
     "stylelint-scss": "^5.0.0"
   },
   "devDependencies": {
-    "@jungzl/eslint-config-ts": "^0.0.5",
+    "@jungzl/eslint-config-ts": "^0.0.8",
     "bumpp": "^9.0.0",
     "eslint": "^8.26.0",
     "typescript": "^5.0.0"
