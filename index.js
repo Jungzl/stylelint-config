@@ -4,6 +4,7 @@ module.exports = {
     'stylelint-config-recommended',
     'stylelint-config-standard',
     'stylelint-config-standard-scss',
+    'stylelint-stylistic/config',
   ],
   plugins: [
     'stylelint-css-modules',
@@ -43,6 +44,7 @@ module.exports = {
     // kebab-case(组件库常用 or snake_case(方便使用css modules)
     'selector-class-pattern': '^([a-z][a-z0-9]*)((_|__|-|--)[a-z0-9]+)*$',
     'indentation': [2, { baseIndentLevel: 1 }],
+    'declaration-property-value-no-unknown': true,
   },
   overrides: [
     {
@@ -60,6 +62,9 @@ module.exports = {
             ignorePseudoClasses: ['global', 'deep'],
           },
         ],
+        // conflict when using style in template with prettier-vue/prettier
+        'declaration-block-trailing-semicolon': null,
+        'stylistic/declaration-block-trailing-semicolon': null,
       },
     },
   ],

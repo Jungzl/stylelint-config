@@ -3,7 +3,16 @@
   "version": "0.0.4",
   "description": "Jungzl's stylelint config",
   "author": "Jungzl",
+  "packageManager": "pnpm@8.6.9",
   "license": "MIT",
+  "homepage": "https://github.com/Jungzl/stylelint-config/tree/main#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jungzl/stylelint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/Jungzl/stylelint-config/issues"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -17,28 +26,30 @@
   "scripts": {
     "update": "pnpm up -i --latest",
     "lint": "eslint . --fix",
-    "release": "bumpp package.json --commit --push --tag && pnpm publish --access public"
+    "release": "bumpp"
   },
   "peerDependencies": {
-    "stylelint": "^15.0.0"
+    "stylelint": "^15.4.0"
   },
   "dependencies": {
     "postcss-html": "^1.5.0",
-    "stylelint-config-recess-order": "^4.0.0",
+    "stylelint-config-recess-order": "^4.3.0",
     "stylelint-config-recommended": "^13.0.0",
-    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-recommended-vue": "^1.5.0",
     "stylelint-config-standard": "^34.0.0",
     "stylelint-config-standard-scss": "^10.0.0",
     "stylelint-config-standard-vue": "^1.0.0",
     "stylelint-css-modules": "^1.2.2",
-    "stylelint-declaration-block-no-ignored-properties": "^2.6.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.7.0",
     "stylelint-no-unsupported-browser-features": "^7.0.0",
-    "stylelint-scss": "^5.0.0"
+    "stylelint-scss": "^5.0.1",
+    "stylelint-stylistic": "^0.4.3"
   },
   "devDependencies": {
     "@jungzl/eslint-config-ts": "^0.0.8",
-    "bumpp": "^9.0.0",
-    "eslint": "^8.26.0",
-    "typescript": "^5.0.0"
+    "bumpp": "^9.1.1",
+    "conventional-changelog-cli": "^3.0.0",
+    "eslint": "^8.45.0",
+    "typescript": "^5.1.6"
   }
 }
