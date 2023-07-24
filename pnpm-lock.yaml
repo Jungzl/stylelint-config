@@ -9,7 +9,7 @@ dependencies:
     specifier: ^1.5.0
     version: 1.5.0
   stylelint:
-    specifier: ^15.0.0
+    specifier: ^15.4.0
     version: 15.10.2
   stylelint-config-recess-order:
     specifier: ^4.3.0
