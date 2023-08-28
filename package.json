@@ -48,7 +48,7 @@
   "devDependencies": {
     "@jungzl/eslint-config-ts": "^0.0.8",
     "bumpp": "^9.1.1",
-    "conventional-changelog-cli": "^3.0.0",
+    "conventional-changelog-cli": "^4.0.0",
     "eslint": "^8.45.0",
     "typescript": "^5.1.6"
   }
