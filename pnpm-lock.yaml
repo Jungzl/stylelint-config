@@ -21,8 +21,8 @@ dependencies:
     specifier: ^1.5.0
     version: 1.5.0(postcss-html@1.5.0)(stylelint@15.10.2)
   stylelint-config-standard:
-    specifier: ^34.0.0
-    version: 34.0.0(stylelint@15.10.2)
+    specifier: ^36.0.0
+    version: 36.0.0(stylelint@15.10.2)
   stylelint-config-standard-scss:
     specifier: ^11.0.0
     version: 11.0.0(postcss@8.4.27)(stylelint@15.10.2)
@@ -3641,6 +3641,15 @@ packages:
       stylelint: 15.10.2
     dev: false
 
+  /stylelint-config-recommended@14.0.0(stylelint@15.10.2):
+    resolution: {integrity: sha512-jSkx290CglS8StmrLp2TxAppIajzIBZKYm3IxT89Kg6fGlxbPiTiyH9PS5YUuVAFwaJLl1ikiXX0QWjI0jmgZQ==}
+    engines: {node: '>=18.12.0'}
+    peerDependencies:
+      stylelint: ^16.0.0
+    dependencies:
+      stylelint: 15.10.2
+    dev: false
+
   /stylelint-config-standard-scss@11.0.0(postcss@8.4.27)(stylelint@15.10.2):
     resolution: {integrity: sha512-fGE79NBOLg09a9afqGH/guJulRULCaQWWv4cv1v2bMX92B+fGb0y56WqIguwvFcliPmmUXiAhKrrnXilIeXoHA==}
     peerDependencies:
@@ -3667,7 +3676,7 @@ packages:
       stylelint: 15.10.2
       stylelint-config-html: 1.1.0(postcss-html@1.5.0)(stylelint@15.10.2)
       stylelint-config-recommended-vue: 1.5.0(postcss-html@1.5.0)(stylelint@15.10.2)
-      stylelint-config-standard: 34.0.0(stylelint@15.10.2)
+      stylelint-config-standard: 36.0.0(stylelint@15.10.2)
     dev: false
 
   /stylelint-config-standard@34.0.0(stylelint@15.10.2):
@@ -3678,6 +3687,16 @@ packages:
     dependencies:
       stylelint: 15.10.2
       stylelint-config-recommended: 13.0.0(stylelint@15.10.2)
+    dev: false
+
+  /stylelint-config-standard@36.0.0(stylelint@15.10.2):
+    resolution: {integrity: sha512-3Kjyq4d62bYFp/Aq8PMKDwlgUyPU4nacXsjDLWJdNPRUgpuxALu1KnlAHIj36cdtxViVhXexZij65yM0uNIHug==}
+    engines: {node: '>=18.12.0'}
+    peerDependencies:
+      stylelint: ^16.1.0
+    dependencies:
+      stylelint: 15.10.2
+      stylelint-config-recommended: 14.0.0(stylelint@15.10.2)
     dev: false
 
   /stylelint-css-modules@1.2.2(stylelint@15.10.2):
