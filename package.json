@@ -29,7 +29,7 @@
     "release": "bumpp"
   },
   "peerDependencies": {
-    "stylelint": "^15.4.0"
+    "stylelint": "^16.0.0"
   },
   "dependencies": {
     "postcss-html": "^1.5.0",
