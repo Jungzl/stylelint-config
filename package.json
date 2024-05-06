@@ -3,7 +3,7 @@
   "version": "0.0.5",
   "description": "Jungzl's stylelint config",
   "author": "Jungzl",
-  "packageManager": "pnpm@8.15.8",
+  "packageManager": "pnpm@9.0.6",
   "license": "MIT",
   "homepage": "https://github.com/Jungzl/stylelint-config/tree/main#readme",
   "repository": {
